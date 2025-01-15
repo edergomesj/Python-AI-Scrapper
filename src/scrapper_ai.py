@@ -14,4 +14,4 @@ url = st.text_input("Enter a Website URL:")
 if st.button("Scrape Site"):
     st.write("Scraping Website...")
     result = scrape_website(url)
-
+    print(result)
